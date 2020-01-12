@@ -22,7 +22,7 @@ int main()
 
 void Insert(int data, int n)
 {
-	struct Node* temp1=(struct Node*)malloc(sizeof(struct Node*));
+	struct Node* temp1=(struct Node*)malloc(sizeof(struct Node));
 	int i;
 	temp1->data=data;
 	temp1->next=NULL;
